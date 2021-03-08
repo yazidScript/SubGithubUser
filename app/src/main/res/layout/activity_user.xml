@@ -46,21 +46,20 @@
             app:cardCornerRadius="2sp"
             app:cardBackgroundColor="#fff">
 
-            <EditText
-                android:id="@+id/etSearch"
+            <com.example.subgithubuser.ui.DelayAutoCompleteTextView
+                android:id="@+id/tvSearch"
                 android:layout_width="391dp"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="1sp"
-                android:layout_marginRight="10sp"
+                android:layout_marginLeft="2sp"
+                android:layout_marginRight="12sp"
                 android:background="#fff"
                 android:drawableLeft="@drawable/ic_baseline_search_24"
-                android:drawablePadding="5sp"
+                android:drawablePadding="6sp"
                 android:hint="Cari data user..."
                 android:imeOptions="flagNoExtractUi|actionSearch"
-                android:inputType="textAutoComplete"
-                android:padding="4sp"
+                android:padding="5sp"
                 android:paddingLeft="0sp"
-                android:paddingTop="6sp"
+                android:paddingTop="8sp"
                 android:paddingRight="0sp"
                 android:textSize="15sp" />
 

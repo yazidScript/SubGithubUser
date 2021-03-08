@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".activity.DetailUserActivity">
 
-
-
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/ivUser"
         android:layout_centerHorizontal="true"
@@ -20,14 +18,13 @@
     <TextView
         android:id="@+id/tvUsername"
         android:layout_below="@id/ivUser"
-        tools:text="Lorem ipsum"
+        tools:text="@string/short_dummy"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:textSize="17sp"
         android:textColor="@color/colorPrimary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
 
 
     <LinearLayout
@@ -88,14 +85,14 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/tv_name"
+                    android:id="@+id/tvName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="0dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:gravity="top|left"
-                    android:hint="Lorem ipsum"
+                    android:hint="@string/short_dummy"
                     android:textColor="#252525"
                     android:textSize="13sp" />
 
@@ -153,14 +150,14 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/tv_company"
+                    android:id="@+id/tvCompany"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="0dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:gravity="top|left"
-                    android:hint="Lorem ipsum"
+                    android:hint="@string/short_dummy"
                     android:textColor="#252525"
                     android:textSize="13sp" />
 
@@ -218,14 +215,14 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/tv_bio"
+                    android:id="@+id/tvBio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="0dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:gravity="top|left"
-                    android:hint="Lorem ipsum"
+                    android:hint="@string/short_dummy"
                     android:textColor="#252525"
                     android:textSize="13sp" />
 

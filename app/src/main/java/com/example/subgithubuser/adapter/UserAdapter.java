@@ -41,8 +41,8 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.AdapterViewHol
     public void onBindViewHolder(@NonNull AdapterViewHolder holder, int position) {
         final ModelUser list = mList.get(position);
 
-        holder.tv_username.setText(list.getUSERNAME());
-        holder.tv_follower.setText(list.getFOLLOWER());
+        holder.tvUsername.setText(list.getUSERNAME());
+        holder.tvFollower.setText(list.getFOLLOWER());
         holder.item.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -59,13 +59,13 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.AdapterViewHol
     }
 
     class AdapterViewHolder extends RecyclerView.ViewHolder {
-        private TextView tv_username, tv_follower;
+        private TextView tvUsername, tvFollower;
         private ImageView iv_photo;
         private LinearLayout item;
         AdapterViewHolder(@NonNull View itemView) {
             super(itemView);
-//            tv_username = itemView.findViewById(R.id.tv_username);
-//            tv_follower = itemView.findViewById(R.id.tv_followers);
+            tvUsername = itemView.findViewById(R.id.tvUsername);
+            tvFollower = itemView.findViewById(R.id.tvFollowers);
 //            iv_photo = itemView.findViewById(R.id.iv_photo);
             item = itemView.findViewById(R.id.item);
 
